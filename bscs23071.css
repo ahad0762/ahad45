@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#h1 {
+    font-size: 36px;
+    color: goldenrod;
+}
+
+#product-image {
+    background-image: url('pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#products h2 {
+    font-size: 24px;
+    color: gray;
+}
+
+#products a {
+    text-decoration: none;
+    color:azure;
+    background-color:yellowgreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-info  {
+    
+    height: 90vh;
+    width: 90vh;
+    background-color: lightblue;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 5px;
+    border-style: solid;
+
+    
+}
+/* Apply a full-screen background image */
+.background {
+    background-image: 'pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg'; /* Replace 'your-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange; /* Text color on top of the background */
+}
+
+/* Style the company name text */
+.company-name {
+    font-size: 2rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow for better visibility */
+}
+.product-box{
+    height: 70vh;
+    width: 70vh;
+    background-color: lightcyan;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 5px;
+    border-style: solid;
+
+
+}
+.info-b{
+    height: 50vh;
+    width: 50vh;
+    background-color: lightcyan;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 5px;
+    border-style: solid;
+
+
+
+
+}
